@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  background: rgb(27, 76, 106);
+  background: linear-gradient(
+    328deg,
+    rgba(27, 76, 106, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(1, 70, 84, 1) 100%
+  );
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 400px;
+  border-radius: 0.5em;
+  background-color: #fff;
+}
+
+.login .loginTitle {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.formContent {
+  padding: 40px;
+}
+
+.formRow {
+  margin-bottom: 20px;
+}
+.formRow input {
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 100%;
+  padding: 10px;
+}
+
+.formRow button {
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 2em;
+  border: none;
+  background-color: #2693aa;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.formRow button:hover {
+  background-color: #227e91;
+}
+
+#forgetPass.formRow a {
+  color: gray;
+  text-decoration: none;
+}
+
+.notMember {
+  color: gray;
+  text-align: center;
+  padding: 20px;
+}
+
+.notMember > a {
+  color: blue;
+  text-decoration: none;
+}
